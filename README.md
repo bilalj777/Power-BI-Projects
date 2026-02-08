@@ -6,7 +6,6 @@ This Power BI dashboard provides operational and performance insights for projec
 
 The solution was built using automated REST API extraction from a SharePoint-based ticket system and supports daily refresh in Power BI Service.
 
----
 
 ## 🔄 ETL & Data Pipeline
 - Data source: SharePoint List via REST API
@@ -19,7 +18,6 @@ The solution was built using automated REST API extraction from a SharePoint-bas
   - Created calculated columns for SLA, overdue flags, and cycle time
 - Modeling: Star schema with Date dimension and ticket fact table
 
----
 
 ## 🎯 Business Questions Answered
 - How many tickets were solved in the past 7 days?
@@ -29,7 +27,6 @@ The solution was built using automated REST API extraction from a SharePoint-bas
 - Which teams or categories generate the highest ticket volume?
 - What is the trend of open vs closed tickets over time?
 
----
 
 ## 📈 Key KPIs
 - Tickets resolved (last 7 days)
@@ -39,7 +36,6 @@ The solution was built using automated REST API extraction from a SharePoint-bas
 - Open vs closed ratio
 - Tickets by status and priority
 
----
 
 ## 🧰 Tools & Techniques
 - Power BI Desktop & Service
@@ -49,12 +45,10 @@ The solution was built using automated REST API extraction from a SharePoint-bas
 - Scheduled refresh configuration
 - KPI and SLA modeling
 
----
 
 ## 🖼️ Dashboard Preview
 (Add screenshots in /screenshots and link here)
 
----
 
 ## 🧠 Skills Demonstrated
 - API-based data ingestion
@@ -62,5 +56,3 @@ The solution was built using automated REST API extraction from a SharePoint-bas
 - Operational KPI design
 - Time-based performance analytics
 - Management-focused dashboard design
-
----
