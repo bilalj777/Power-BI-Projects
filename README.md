@@ -1,4 +1,4 @@
-# Power-BI-Projects
+# Power Platform Projects
 # 📊 Power BI Project Management Dashboard
 
 ##  Project Overview
@@ -168,9 +168,47 @@ The goal is to answer core commercial questions a data analyst should address in
 ## Dashboard Preview
 (Add screenshots in /screenshots and link here)
 
-
 ## Skills Demonstrated
 - Dimensional data modeling
+
+# Power Automate — SharePoint Ticket Completion Notifications
+
+## Overview
+This project implements a Power Automate workflow that sends automatic Microsoft Teams notifications to managers when a task ticket in a SharePoint project board is moved to the **Done** status.
+
+The automation improves visibility of completed work and reduces the need for manual status tracking.
+
+
+## Business Value
+- Real-time notification when tickets are completed
+- Faster manager awareness and follow-up
+- Reduced manual checking of project boards
+- Improved workflow transparency
+- Supports KPI tracking and reporting processes
+
+## Solution Summary
+A Power Automate flow monitors a SharePoint ticket list and triggers a Teams notification whenever a ticket is marked as completed. The message includes the ticket name and a direct link to the item.
+
+This automation is used alongside a Power BI project management dashboard built on the same SharePoint data source.
+
+
+## Tools Used
+- Microsoft Power Automate
+- SharePoint Online
+- Microsoft Teams
+- Power Platform connectors
+
+
+## Skills Demonstrated
+- Business process automation
+- Event-driven workflows
+- Power Platform integration
+- Operational efficiency improvement
+
+
+## Author
+Bilal El Janoudi— Power BI & Power Platform Projects
+
 - Time intelligence DAX
 - Sales performance analytics
 - Geographic analysis
